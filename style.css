@@ -1,0 +1,26 @@
+/* Стили для шапки */
+header {
+    background-color: #7b0000;
+    color: #cdcdcd;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Стили для меню */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline  ;
+    margin-right: 20px;
+}
+
+/* Стили для подвала */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
