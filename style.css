@@ -19,8 +19,33 @@ nav ul li {
 
 /* Стили для подвала */
 footer {
+    margin-top: 20px;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+/*список в шапке*/
+nav ul li a {
+    text-decoration: none;
+    color: #7b0000; 
+}
+
+nav ul li {
+    margin-right: 10px; /*  отступ */
+    display: inline-block;
+    border-right: 1px solid #ccc; /* черта */
+    padding-right: 10px; /*  отступ справа */
+}
+
+.uslugaimg {
+    
+    border-radius: 4px;
+    padding: 5px;
+    width: 180px;
+}
+
+.catalog-container {
+    display: flex;
 }
