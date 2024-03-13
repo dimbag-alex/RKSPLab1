@@ -1,3 +1,7 @@
+body {
+    font-family: Sans, sans-serif;
+  }
+
 /* Стили для шапки */
 header {
     background-color: #7b0000;
@@ -16,6 +20,37 @@ nav ul li {
     display: inline  ;
     margin-right: 20px;
 }
+
+
+
+.carousel-container {
+    max-width: 80%; /* Уменьшает ширину слайд-шоу до 80% ширины родительского элемента */
+    margin: auto; /* Центрирует слайд-шоу по горизонтали */
+}
+
+.carousel-item {
+    height: 40vh; /* Уменьшает высоту слайд-шоу до 30% высоты видимой области (viewport height) */
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item img {
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+        background-color: black;
+}
+.carousel-container {
+    max-width: 60%; /* Уменьшает ширину карусели до 60% ширины родительского элемента */
+    margin: auto; /* Центрирует карусель по горизонтали */
+}
+
+
 
 /* Стили для подвала */
 footer {
@@ -49,3 +84,4 @@ nav ul li {
 .catalog-container {
     display: flex;
 }
+

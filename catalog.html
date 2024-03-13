@@ -4,50 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AutoTune - Каталог</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>AutoTune</h1>
-        <p>Вас приветствует AutoTune — партнер по ремонту и обслуживанию</p>
+    <header class="mb-3">
+        <h1 class="text-center">AutoTune</h1>
+        <p class="text-center">Вас приветствует AutoTune — партнер по ремонту и обслуживанию</p>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="about.html">О компании</a></li>
-            <li><a href="catalog.html">Наши услуги</a></li>
-            <li><a href="warranty.html">Гарантия</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">О компании</a></li>
+                <li class="nav-item"><a class="nav-link" href="catalog.html">Наши услуги</a></li>
+                <li class="nav-item"><a class="nav-link" href="warranty.html">Гарантия</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
     </nav>
 
     <hr>
 
-    <h1>Каталог</h1>
+    <h1 class="text-center mb-3">Каталог</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="sqRazval.png" alt="Развал-схождение", class="img-fluid">
+                <p>Развал-схождение</p>
+                <p>3400 руб.</p>
+                <a href="С">Подробнее</a>
+            </div>
+            <div class="col-md-4">
+                <img src="shinomontazh-vnedorozhniki.jpg" alt="Шиномонтаж", class="img-fluid">
+                <p>Шиномонтаж</p>
+                <p>4500 руб.</p>
+                <a href="item2_details.html">Подробнее</a>
+            </div>
+            <div class="col-md-4">
+                <img src="sqAZM.jpg" alt="Аппаратная замена масла", class="img-fluid">
+                <p>Аппаратная замена масла</p>
+                <p>3000 руб.</p>
+                <a href="item3_details.html">Подробнее</a>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="sqKond.png" alt="Заправка кондиционера", class="img-fluid">
+                    <p>Заправка кондиционера</p>
+                    <p>2100 руб.</p>
+                    <a href="item4_details.html">Подробнее</a>
+                </div>
+            </div>
+        </div>
     
-
-    <div class="catalog-container">
-        <!-- Уменьшенные копии изображений элементов -->
-    <div class="item">
-        <img src="sqRazval.png" alt="Развал-схождение", class="uslugaimg">
-        <p>3400 руб.</p>
-        <a href="item1_details.html">Подробнее</a>
-    </div>
-
-    <div class="item">
-        <img src="shinomontazh-vnedorozhniki.jpg" alt="Шиномонтаж", class="uslugaimg">
-        <p>4500 руб.</p>
-        <a href="item2_details.html">Подробнее</a>
-    </div>
-
-    </div>
-
-    
-   
-
-    <footer>
-        <p>Все права защищены © 2024</p>
-    </footer>
-</body>
-</html>
+        <footer class="mt-3">
+            <p class="text-center">Все права защищены © 2024</p>
+        </footer>
+    </body>
+    </html>
